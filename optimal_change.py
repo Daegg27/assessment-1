@@ -126,7 +126,7 @@ def optimal_change(item_cost, amount_paid):
         final_output += " "
         
     # Allows me to adjust the final portion of the string
-    final_output = ".".join(final_output.rsplit(",", 1))
+    final_output = ".".join(final_output.rsplit(", ", 1))
     final_output = ", and ".join(final_output.rsplit(", ", 1))\
-    
+
     return final_output
